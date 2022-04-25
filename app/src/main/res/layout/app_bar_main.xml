@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     tools:context="com.albro.alfamoviecatalogue.ui.home.HomeActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:elevation="@dimen/margin_padding_xsmall"
+        android:theme="@style/Theme.AlfaMovieCatalogue.AppBarOverlay"
+        app:elevation="@dimen/margin_8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:theme="@style/Theme.AlfaMovieCatalogue.AppBarOverlay">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/colorPrimary"
-            app:titleTextColor="@color/colorAccent"
-            app:title="@string/app_name"/>
+            android:theme="@style/ToolbarTheme"
+            app:popupTheme="@style/ThemeOverlay.MaterialComponents.Dark"
+            app:title="@string/app_name"
+            app:titleTextColor="@color/colorAccent" />
 
     </com.google.android.material.appbar.AppBarLayout>
 

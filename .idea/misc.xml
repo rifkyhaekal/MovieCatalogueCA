@@ -4,21 +4,47 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable-v24/bottom_nav_color.xml" value="0.103" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable-v24/fg_card_detail.xml" value="0.1115" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable/bg_search_view.xml" value="0.103" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.1115" />
         <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable/ic_baseline_movie_24.xml" value="0.1045" />
         <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.103" />
         <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1045" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable/ic_favorite.xml" value="0.1115" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable/ic_favorite_white.xml" value="0.1115" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable/ic_favorite_yellow.xml" value="0.1115" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable/ic_favoritr_white.xml" value="0.1115" />
         <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1045" />
         <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1045" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable/ic_newest_white.xml" value="0.1115" />
         <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1045" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable/ic_oldest_black.xml" value="0.1115" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable/ic_random_white.xml" value="0.1115" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable/ic_sort_black.xml" value="0.1115" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/drawable/ic_sort_white.xml" value="0.1115" />
         <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/font/font.xml" value="0.19074074074074074" />
         <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/layout/activity_home.xml" value="0.17" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/layout/activity_movie_detail.xml" value="0.3277777777777778" />
         <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/layout/activity_splashscreen.xml" value="0.22447916666666667" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/layout/activity_tv_show_detail.xml" value="0.17415730337078653" />
         <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/layout/app_bar_main.xml" value="0.22447916666666667" />
-        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/layout/fragment_movie.xml" value="0.22447916666666667" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/layout/content_detail_movie.xml" value="0.33" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/layout/content_detail_tvshow.xml" value="0.25" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/layout/fragment_movie.xml" value="0.1" />
         <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/layout/fragment_tshow.xml" value="0.22447916666666667" />
-        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/layout/fragment_tvshow.xml" value="0.21302083333333333" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/layout/fragment_tvshow.xml" value="0.1" />
         <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/menu/bottom_nav_menu.xml" value="0.22447916666666667" />
         <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1045" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/core/src/main/res/drawable/as.xml" value="0.111" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/core/src/main/res/drawable/ic_broken_image.xml" value="0.111" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/core/src/main/res/drawable/ic_error.xml" value="0.111" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/core/src/main/res/drawable/ic_loading.xml" value="0.111" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/core/src/main/res/layout/items_list.xml" value="0.1" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/core/src/main/res/layout/items_movie.xml" value="0.21302083333333333" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/core/src/main/res/layout/layout.xml" value="0.21302083333333333" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/favorite/src/main/res/layout/fragment_favorite.xml" value="0.21302083333333333" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/favorite/src/main/res/layout/fragment_favorite_movie.xml" value="0.1" />
+        <entry key="..\:/RHA/Belajar/dicoding/MADE/AlfaMovieCatalogue/favorite/src/main/res/layout/fragment_favorite_tv_show.xml" value="0.21302083333333333" />
       </map>
     </option>
   </component>

@@ -12,6 +12,13 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"
     implementation "androidx.multidex:multidex:$multidex_version"
 
+    // Floating FAB
+    implementation "com.github.clans:fab:$floating_fab_version"
+
+    // RxBinding
+    implementation "com.jakewharton.rxbinding4:rxbinding:$rx_binding_version"
+    implementation "com.jakewharton.rxbinding4:rxbinding-appcompat:$rx_binding_version"
+
     // CardView
     implementation "androidx.cardview:cardview:$cardview_version"
 

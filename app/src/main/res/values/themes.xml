@@ -22,7 +22,9 @@
 
     <style name="Theme.AlfaMovieCatalogue.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="Theme.AlfaMovieCatalogue.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/colorAccent</item>
+    </style>
 
     <style name="RatingBar" parent="Theme.AppCompat">
         <item name="colorControlNormal">@color/lightGrey</item>

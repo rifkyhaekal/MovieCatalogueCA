@@ -1,13 +1,18 @@
 package com.albro.alfamoviecatalogue.ui.tvshow
 
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.asLiveData
+import com.albro.alfamoviecatalogue.core.data.source.Resource
+import com.albro.alfamoviecatalogue.core.domain.model.TvShow
+import com.albro.alfamoviecatalogue.core.domain.usecase.MovieUseCase
 
-class TvShowViewModel : ViewModel() {
+class TvShowViewModel(private val movieUseCase: MovieUseCase) : ViewModel() {
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is notifications Fragment"
-    }
-    val text: LiveData<String> = _text
+    fun getTvShows(sort: String): LiveData<Resource<List<TvShow>>> =
+        movieUseCase.getTvShows(sort).asLiveData()
+
+    fun searchTvShows(title: String): LiveData<List<TvShow>> =
+        movieUseCase.getSearchTvShows(title).asLiveData()
+
 }

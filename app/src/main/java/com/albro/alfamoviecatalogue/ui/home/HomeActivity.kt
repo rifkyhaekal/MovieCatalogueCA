@@ -2,9 +2,9 @@ package com.albro.alfamoviecatalogue.ui.home
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.dynamicfeatures.fragment.DynamicNavHostFragment
 import androidx.navigation.ui.NavigationUI
 import com.albro.alfamoviecatalogue.R
-import androidx.navigation.dynamicfeatures.fragment.DynamicNavHostFragment
 import com.albro.alfamoviecatalogue.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {
