@@ -57,7 +57,6 @@ class FavoriteMovieFragment : Fragment() {
 
     private fun showDataFavorite(movies: List<Movie>) {
         movieAdapter.setData(movies)
-        movieAdapter.notifyDataSetChanged()
 
         if (movieAdapter.itemCount == 0 || movies.isEmpty()) {
             binding?.apply {

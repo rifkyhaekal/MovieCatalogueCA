@@ -55,7 +55,6 @@ class FavoriteTvShowFragment : Fragment() {
 
     private fun showDataFavorite(tvShows: List<TvShow>) {
         tvShowAdapter.setData(tvShows)
-        tvShowAdapter.notifyDataSetChanged()
 
         if (tvShowAdapter.itemCount == 0 || tvShows.isEmpty()) {
             binding?.apply {

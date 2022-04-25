@@ -1,6 +1,3 @@
 <resources>
-    <string name="title_movie">Movie</string>
-    <string name="title_tv_show">Tv Show</string>
-    <string name="title_favorite">Favorite</string>
     <string name="empty_movie">No favorite Movie yet.</string>
 </resources>

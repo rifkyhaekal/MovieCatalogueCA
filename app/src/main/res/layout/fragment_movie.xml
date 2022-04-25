@@ -33,13 +33,13 @@
         android:background="@drawable/bg_search_view"
         android:iconifiedByDefault="true"
         android:padding="4dp"
-        app:defaultQueryHint="@string/default_search_hint"
+        app:defaultQueryHint="@string/search_movie"
         app:layout_constraintBottom_toTopOf="@id/sv_movie"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/app_bar_layout"
         app:queryBackground="@android:color/transparent"
-        app:queryHint="@string/search_hint" />
+        app:queryHint="@string/search_hint_movie" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_movie"

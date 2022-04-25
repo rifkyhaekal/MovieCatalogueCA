@@ -12,14 +12,12 @@
     <string name="network">Network</string>
 
     <string name="splash">Splash Screen</string>
-    <string name="default_search_hint">Search</string>
-    <string name="search_hint">Search…</string>
+    <string name="search_movie">Search movie</string>
+    <string name="search_tvshow">Search tv show</string>
+    <string name="search_hint_movie">Search movie…</string>
+    <string name="search_hint_tvshow">Search tv show…</string>
     <string name="not_found_movie">Movie not found.</string>
     <string name="not_found_tvshow">Tv Show not found.</string>
-
-    <string name="title_movie">Movie</string>
-    <string name="title_tv_show">Tv Show</string>
-    <string name="title_favorite">Favorite</string>
 
     <string name="error">Something wrong, please try again.</string>
     <string name="poster_backdrop">Poster Backdrop</string>

@@ -39,6 +39,6 @@ class FavoriteFragment : Fragment() {
 
     companion object {
         @StringRes
-        private val TAB_TITLES = intArrayOf(R.string.title_movie, R.string.title_tv_show)
+        private val TAB_TITLES = intArrayOf(com.albro.alfamoviecatalogue.core.R.string.title_movie, com.albro.alfamoviecatalogue.core.R.string.title_tv_show)
     }
 }
