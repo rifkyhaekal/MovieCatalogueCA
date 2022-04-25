@@ -78,6 +78,12 @@ class FavoriteTvShowFragment : Fragment() {
         }
     }
 
+    override fun onDestroyView() {
+        binding?.rvTvshowFavorite?.adapter = null
+        _favoriteBinding = null
+        super.onDestroyView()
+    }
+
     override fun onDestroy() {
         super.onDestroy()
         _favoriteBinding = null

@@ -137,7 +137,13 @@ class TvShowFragment : Fragment() {
     }
 
     override fun onDestroyView() {
+        binding?.rvTvshow?.adapter = null
+        _fragmentTvShowBinding = null
         super.onDestroyView()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
         _fragmentTvShowBinding = null
     }
 }

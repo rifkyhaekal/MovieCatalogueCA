@@ -48,4 +48,7 @@ dependencies {
     implementation "io.insert-koin:koin-androidx-workmanager:$koinVersion"
     implementation "io.insert-koin:koin-androidx-navigation:$koinVersion"
     implementation "io.insert-koin:koin-androidx-compose:$koinVersion"
+
+    // Leak Canary
+    debugImplementation "com.squareup.leakcanary:leakcanary-android:$leakCanaryVersion"
 }

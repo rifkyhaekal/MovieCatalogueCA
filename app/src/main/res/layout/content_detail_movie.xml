@@ -77,7 +77,8 @@
         app:layout_constraintEnd_toStartOf="@id/fab_favorite"
         app:layout_constraintStart_toEndOf="@id/img_poster_movie"
         app:layout_constraintTop_toBottomOf="@id/cv_backdrop"
-        tools:text="@string/title_movie" />
+        tools:text="@string/title_movie"
+        android:textIsSelectable="true" />
 
     <TextView
         android:id="@+id/tv_releasedate"
@@ -137,7 +138,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/txt_score_movie"
         app:layout_constraintTop_toTopOf="@+id/txt_genre_movie"
-        tools:text="@string/genre" />
+        tools:text="@string/genre"
+        android:textIsSelectable="true" />
 
     <TextView
         android:id="@+id/txt_duration_movie"
@@ -159,7 +161,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/txt_score_movie"
         app:layout_constraintTop_toTopOf="@+id/txt_duration_movie"
-        tools:text="@string/duration" />
+        tools:text="@string/duration"
+        android:textIsSelectable="true" />
 
     <TextView
         android:id="@+id/txt_score_movie"
@@ -191,7 +194,8 @@
         android:textSize="@dimen/text_size_small"
         app:layout_constraintStart_toEndOf="@id/rating_movie"
         app:layout_constraintTop_toTopOf="@+id/rating_movie"
-        tools:text="@string/score" />
+        tools:text="@string/score"
+        android:textIsSelectable="true" />
 
     <TextView
         android:id="@+id/txt_status_movie"
@@ -213,7 +217,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/txt_score_movie"
         app:layout_constraintTop_toTopOf="@+id/txt_status_movie"
-        tools:text="@string/status" />
+        tools:text="@string/status"
+        android:textIsSelectable="true" />
 
     <TextView
         android:id="@+id/tv_overview"
@@ -252,6 +257,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/line_overview"
-        tools:text="@string/overview" />
+        tools:text="@string/overview"
+        android:textIsSelectable="true" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

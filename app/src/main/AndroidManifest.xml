@@ -27,7 +27,6 @@
         <activity
             android:name=".ui.home.HomeActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:label="@string/app_name"
             android:theme="@style/Theme.AlfaMovieCatalogue.NoActionBar"
             android:windowSoftInputMode="adjustPan" />
         <activity
