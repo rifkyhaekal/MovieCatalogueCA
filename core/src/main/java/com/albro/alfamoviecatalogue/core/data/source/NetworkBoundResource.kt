@@ -1,6 +1,6 @@
 package com.albro.alfamoviecatalogue.core.data.source
 
-import com.example.haekalmoviecatalogue.data.source.remote.ApiResponse
+import com.albro.alfamoviecatalogue.core.data.source.remote.ApiResponse
 import kotlinx.coroutines.flow.*
 
 abstract class NetworkBoundResource<ResultType, RequestType> {

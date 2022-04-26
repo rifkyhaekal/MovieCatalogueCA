@@ -1,4 +1,4 @@
-package com.example.haekalmoviecatalogue.utils
+package com.albro.alfamoviecatalogue.core.utils
 
 import com.albro.alfamoviecatalogue.core.BuildConfig
 

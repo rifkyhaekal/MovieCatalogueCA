@@ -5,13 +5,13 @@ import com.albro.alfamoviecatalogue.core.domain.model.Movie
 import com.albro.alfamoviecatalogue.core.domain.model.TvShow
 import com.albro.alfamoviecatalogue.core.domain.repository.IMovieRepository
 import com.albro.alfamoviecatalogue.core.utils.*
-import com.example.haekalmoviecatalogue.data.source.remote.ApiResponse
-import com.example.haekalmoviecatalogue.data.source.remote.RemoteDataSource
-import com.example.haekalmoviecatalogue.data.source.remote.response.MovieDetailResponse
-import com.example.haekalmoviecatalogue.data.source.remote.response.MovieResponse
-import com.example.haekalmoviecatalogue.data.source.remote.response.TvShowDetailResponse
-import com.example.haekalmoviecatalogue.data.source.remote.response.TvShowResponse
-import com.example.haekalmoviecatalogue.utils.AppExecutors
+import com.albro.alfamoviecatalogue.core.data.source.remote.ApiResponse
+import com.albro.alfamoviecatalogue.core.data.source.remote.RemoteDataSource
+import com.albro.alfamoviecatalogue.core.data.source.remote.response.MovieDetailResponse
+import com.albro.alfamoviecatalogue.core.data.source.remote.response.MovieResponse
+import com.albro.alfamoviecatalogue.core.data.source.remote.response.TvShowDetailResponse
+import com.albro.alfamoviecatalogue.core.data.source.remote.response.TvShowResponse
+import com.albro.alfamoviecatalogue.core.utils.AppExecutors
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 

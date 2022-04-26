@@ -4,12 +4,12 @@ import com.albro.alfamoviecatalogue.core.domain.model.Movie
 import com.albro.alfamoviecatalogue.core.domain.model.MovieDetail
 import com.albro.alfamoviecatalogue.core.domain.model.TvShow
 import com.albro.alfamoviecatalogue.core.domain.model.TvShowDetail
-import com.example.haekalmoviecatalogue.data.source.local.entity.MovieDetailEntity
-import com.example.haekalmoviecatalogue.data.source.local.entity.MovieEntity
-import com.example.haekalmoviecatalogue.data.source.local.entity.TvShowDetailEntity
-import com.example.haekalmoviecatalogue.data.source.local.entity.TvShowEntity
-import com.example.haekalmoviecatalogue.data.source.remote.response.MovieResponse
-import com.example.haekalmoviecatalogue.data.source.remote.response.TvShowResponse
+import com.albro.alfamoviecatalogue.core.data.source.local.entity.MovieDetailEntity
+import com.albro.alfamoviecatalogue.core.data.source.local.entity.MovieEntity
+import com.albro.alfamoviecatalogue.core.data.source.local.entity.TvShowDetailEntity
+import com.albro.alfamoviecatalogue.core.data.source.local.entity.TvShowEntity
+import com.albro.alfamoviecatalogue.core.data.source.remote.response.MovieResponse
+import com.albro.alfamoviecatalogue.core.data.source.remote.response.TvShowResponse
 
 object DataMapper {
     fun mapMovieResponseToEntities(input: MovieResponse): List<MovieEntity> {
@@ -37,7 +37,7 @@ object DataMapper {
         }
 
     fun mapMovieDetailEntityToDomain(input: MovieEntity): Movie {
-        var movie = Movie(
+        val movie = Movie(
             movieId = input.movieId,
             imgPoster = input.imgPoster,
             title = input.title,
@@ -57,7 +57,7 @@ object DataMapper {
     }
 
     fun mapMovieDomainToEntities(input: Movie): MovieEntity {
-        var movieEntity = MovieEntity(
+        val movieEntity = MovieEntity(
             movieId = input.movieId,
             imgPoster = input.imgPoster,
             title = input.title,
@@ -102,7 +102,7 @@ object DataMapper {
         }
 
     fun mapTvShowDetailEntityToDomain(input: TvShowEntity): TvShow {
-        var tvShow = TvShow(
+        val tvShow = TvShow(
             tvShowId = input.tvShowId,
             imgPoster = input.imgPoster,
             title = input.title,
@@ -122,7 +122,7 @@ object DataMapper {
     }
 
     fun mapTvShowDomainToEntities(input: TvShow): TvShowEntity {
-        var tvShowEntity = TvShowEntity(
+        val tvShowEntity = TvShowEntity(
             tvShowId = input.tvShowId,
             imgPoster = input.imgPoster,
             title = input.title,

@@ -14,7 +14,7 @@ import com.albro.alfamoviecatalogue.core.utils.showToastShort
 import com.albro.alfamoviecatalogue.core.utils.visible
 import com.albro.alfamoviecatalogue.databinding.ActivityMovieDetailBinding
 import com.albro.alfamoviecatalogue.databinding.ContentDetailMovieBinding
-import com.example.haekalmoviecatalogue.utils.Common
+import com.albro.alfamoviecatalogue.core.utils.Common
 import com.jakewharton.rxbinding4.view.clicks
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

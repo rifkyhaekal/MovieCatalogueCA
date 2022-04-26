@@ -1,4 +1,4 @@
-package com.example.haekalmoviecatalogue.data.source.local.entity
+package com.albro.alfamoviecatalogue.core.data.source.local.entity
 
 import androidx.annotation.NonNull
 import androidx.room.ColumnInfo

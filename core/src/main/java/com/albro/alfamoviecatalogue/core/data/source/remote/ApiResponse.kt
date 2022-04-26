@@ -1,4 +1,4 @@
-package com.example.haekalmoviecatalogue.data.source.remote
+package com.albro.alfamoviecatalogue.core.data.source.remote
 
 sealed class ApiResponse<out R> {
     data class Success<out T>(val data: T) : ApiResponse<T>()

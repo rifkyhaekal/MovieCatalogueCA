@@ -1,9 +1,9 @@
-package com.example.haekalmoviecatalogue.data.source.local.room
+package com.albro.alfamoviecatalogue.core.data.source.local.room
 
 import androidx.room.*
 import androidx.sqlite.db.SupportSQLiteQuery
-import com.example.haekalmoviecatalogue.data.source.local.entity.MovieEntity
-import com.example.haekalmoviecatalogue.data.source.local.entity.TvShowEntity
+import com.albro.alfamoviecatalogue.core.data.source.local.entity.MovieEntity
+import com.albro.alfamoviecatalogue.core.data.source.local.entity.TvShowEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao

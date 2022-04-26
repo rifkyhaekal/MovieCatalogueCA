@@ -18,7 +18,7 @@ import com.albro.alfamoviecatalogue.core.utils.startActivity
 import com.albro.alfamoviecatalogue.core.utils.visible
 import com.albro.alfamoviecatalogue.databinding.FragmentTvshowBinding
 import com.albro.alfamoviecatalogue.ui.detail.tvshowdetail.TvShowDetailActivity
-import com.example.haekalmoviecatalogue.utils.SortUtils
+import com.albro.alfamoviecatalogue.core.utils.SortUtils
 import com.jakewharton.rxbinding4.view.clicks
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
@@ -98,7 +98,7 @@ class TvShowFragment : Fragment() {
     }
 
     internal fun setSearchTvShows(title: String) {
-        var titleQuery = "%$title%"
+        val titleQuery = "%$title%"
 
         viewModel.searchTvShows(titleQuery).observe(this) {
             tvShowAdapter.setData(it)

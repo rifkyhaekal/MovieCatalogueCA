@@ -1,4 +1,4 @@
-package com.example.haekalmoviecatalogue.utils
+package com.albro.alfamoviecatalogue.core.utils
 
 import androidx.sqlite.db.SimpleSQLiteQuery
 

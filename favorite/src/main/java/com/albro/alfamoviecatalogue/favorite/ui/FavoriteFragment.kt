@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
-import com.albro.alfamoviecatalogue.favorite.R
 import com.albro.alfamoviecatalogue.favorite.databinding.FragmentFavoriteBinding
 import com.google.android.material.tabs.TabLayoutMediator
 
@@ -39,6 +38,9 @@ class FavoriteFragment : Fragment() {
 
     companion object {
         @StringRes
-        private val TAB_TITLES = intArrayOf(com.albro.alfamoviecatalogue.core.R.string.title_movie, com.albro.alfamoviecatalogue.core.R.string.title_tv_show)
+        private val TAB_TITLES = intArrayOf(
+            com.albro.alfamoviecatalogue.core.R.string.title_movie,
+            com.albro.alfamoviecatalogue.core.R.string.title_tv_show
+        )
     }
 }

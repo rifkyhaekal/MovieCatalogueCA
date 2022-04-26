@@ -1,9 +1,9 @@
-package com.example.haekalmoviecatalogue.data.source.local.room
+package com.albro.alfamoviecatalogue.core.data.source.local.room
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.example.haekalmoviecatalogue.data.source.local.entity.MovieEntity
-import com.example.haekalmoviecatalogue.data.source.local.entity.TvShowEntity
+import com.albro.alfamoviecatalogue.core.data.source.local.entity.MovieEntity
+import com.albro.alfamoviecatalogue.core.data.source.local.entity.TvShowEntity
 
 @Database(
     entities = [MovieEntity::class, TvShowEntity::class],

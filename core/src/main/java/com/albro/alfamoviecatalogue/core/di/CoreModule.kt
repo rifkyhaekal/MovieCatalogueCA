@@ -6,10 +6,10 @@ import com.albro.alfamoviecatalogue.core.data.source.MovieRepository
 import com.albro.alfamoviecatalogue.core.data.source.local.LocalDataSource
 import com.albro.alfamoviecatalogue.core.data.source.remote.network.ApiService
 import com.albro.alfamoviecatalogue.core.domain.repository.IMovieRepository
-import com.example.haekalmoviecatalogue.data.source.local.room.MovieDatabase
-import com.example.haekalmoviecatalogue.data.source.remote.RemoteDataSource
-import com.example.haekalmoviecatalogue.utils.AppExecutors
-import com.example.haekalmoviecatalogue.utils.Common
+import com.albro.alfamoviecatalogue.core.data.source.local.room.MovieDatabase
+import com.albro.alfamoviecatalogue.core.data.source.remote.RemoteDataSource
+import com.albro.alfamoviecatalogue.core.utils.AppExecutors
+import com.albro.alfamoviecatalogue.core.utils.Common
 import net.sqlcipher.database.SQLiteDatabase
 import net.sqlcipher.database.SupportFactory
 import okhttp3.CertificatePinner

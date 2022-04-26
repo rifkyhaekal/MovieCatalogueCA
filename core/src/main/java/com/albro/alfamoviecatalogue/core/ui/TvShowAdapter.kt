@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.albro.alfamoviecatalogue.core.databinding.ItemsListBinding
 import com.albro.alfamoviecatalogue.core.domain.model.TvShow
 import com.albro.alfamoviecatalogue.core.utils.loadImage
-import com.example.haekalmoviecatalogue.utils.Common
+import com.albro.alfamoviecatalogue.core.utils.Common
 
 class TvShowAdapter : RecyclerView.Adapter<TvShowAdapter.TvShowViewHolder>() {
 
@@ -45,7 +45,7 @@ class TvShowAdapter : RecyclerView.Adapter<TvShowAdapter.TvShowViewHolder>() {
 
         init {
             binding.root.setOnClickListener {
-                onItemClick?.invoke(listData[adapterPosition])
+                onItemClick?.invoke(listData[bindingAdapterPosition])
             }
         }
     }

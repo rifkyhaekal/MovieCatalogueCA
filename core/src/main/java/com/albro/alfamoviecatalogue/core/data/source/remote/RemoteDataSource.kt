@@ -1,13 +1,13 @@
-package com.example.haekalmoviecatalogue.data.source.remote
+package com.albro.alfamoviecatalogue.core.data.source.remote
 
 import android.content.ContentValues.TAG
 import android.util.Log
 import com.albro.alfamoviecatalogue.core.data.source.remote.network.ApiService
-import com.example.haekalmoviecatalogue.data.source.remote.response.MovieDetailResponse
-import com.example.haekalmoviecatalogue.data.source.remote.response.MovieResponse
-import com.example.haekalmoviecatalogue.data.source.remote.response.TvShowDetailResponse
-import com.example.haekalmoviecatalogue.data.source.remote.response.TvShowResponse
-import com.example.haekalmoviecatalogue.utils.Common
+import com.albro.alfamoviecatalogue.core.data.source.remote.response.MovieDetailResponse
+import com.albro.alfamoviecatalogue.core.data.source.remote.response.MovieResponse
+import com.albro.alfamoviecatalogue.core.data.source.remote.response.TvShowDetailResponse
+import com.albro.alfamoviecatalogue.core.data.source.remote.response.TvShowResponse
+import com.albro.alfamoviecatalogue.core.utils.Common
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

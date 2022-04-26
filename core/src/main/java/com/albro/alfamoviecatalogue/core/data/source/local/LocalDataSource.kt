@@ -1,9 +1,9 @@
 package com.albro.alfamoviecatalogue.core.data.source.local
 
-import com.example.haekalmoviecatalogue.data.source.local.entity.MovieEntity
-import com.example.haekalmoviecatalogue.data.source.local.entity.TvShowEntity
-import com.example.haekalmoviecatalogue.data.source.local.room.MovieDao
-import com.example.haekalmoviecatalogue.utils.SortUtils
+import com.albro.alfamoviecatalogue.core.data.source.local.entity.MovieEntity
+import com.albro.alfamoviecatalogue.core.data.source.local.entity.TvShowEntity
+import com.albro.alfamoviecatalogue.core.data.source.local.room.MovieDao
+import com.albro.alfamoviecatalogue.core.utils.SortUtils
 import kotlinx.coroutines.flow.Flow
 
 class LocalDataSource constructor(private val mMovieDao: MovieDao) {

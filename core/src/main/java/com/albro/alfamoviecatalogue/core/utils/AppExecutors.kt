@@ -1,4 +1,6 @@
-package com.example.haekalmoviecatalogue.utils
+@file:Suppress("unused")
+
+package com.albro.alfamoviecatalogue.core.utils
 
 import android.os.Handler
 import android.os.Looper

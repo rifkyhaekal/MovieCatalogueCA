@@ -1,9 +1,9 @@
 package com.albro.alfamoviecatalogue.core.data.source.remote.network
 
-import com.example.haekalmoviecatalogue.data.source.remote.response.MovieDetailResponse
-import com.example.haekalmoviecatalogue.data.source.remote.response.MovieResponse
-import com.example.haekalmoviecatalogue.data.source.remote.response.TvShowDetailResponse
-import com.example.haekalmoviecatalogue.data.source.remote.response.TvShowResponse
+import com.albro.alfamoviecatalogue.core.data.source.remote.response.MovieDetailResponse
+import com.albro.alfamoviecatalogue.core.data.source.remote.response.MovieResponse
+import com.albro.alfamoviecatalogue.core.data.source.remote.response.TvShowDetailResponse
+import com.albro.alfamoviecatalogue.core.data.source.remote.response.TvShowResponse
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query

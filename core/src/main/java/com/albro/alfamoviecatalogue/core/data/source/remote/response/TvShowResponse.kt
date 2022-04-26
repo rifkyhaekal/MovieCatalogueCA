@@ -1,4 +1,4 @@
-package com.example.haekalmoviecatalogue.data.source.remote.response
+package com.albro.alfamoviecatalogue.core.data.source.remote.response
 
 import com.google.gson.annotations.SerializedName
 
