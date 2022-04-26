@@ -25,7 +25,7 @@ import org.koin.androidx.viewmodel.ext.android.viewModel
 class TvShowFragment : Fragment() {
 
     private var _fragmentTvShowBinding: FragmentTvshowBinding? = null
-    private val binding get() = _fragmentTvShowBinding
+    internal val binding get() = _fragmentTvShowBinding
 
     private val viewModel: TvShowViewModel by viewModel()
     private val tvShowAdapter: TvShowAdapter by lazy { TvShowAdapter() }
@@ -97,7 +97,7 @@ class TvShowFragment : Fragment() {
         viewModel.getTvShows(sort).observe(viewLifecycleOwner, tvShowObserver)
     }
 
-    private fun setSearchTvShows(title: String) {
+    internal fun setSearchTvShows(title: String) {
         var titleQuery = "%$title%"
 
         viewModel.searchTvShows(titleQuery).observe(this) {

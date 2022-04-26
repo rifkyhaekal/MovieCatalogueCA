@@ -24,7 +24,8 @@
             android:theme="@style/ToolbarTheme"
             app:popupTheme="@style/ThemeOverlay.MaterialComponents.Dark"
             app:title="@string/app_name"
-            app:titleTextColor="@color/colorAccent" />
+            app:titleTextColor="@color/colorAccent"
+            tools:ignore="UnusedIds" />
 
     </com.google.android.material.appbar.AppBarLayout>
 

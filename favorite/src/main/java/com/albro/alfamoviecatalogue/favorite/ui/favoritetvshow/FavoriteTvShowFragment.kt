@@ -56,7 +56,7 @@ class FavoriteTvShowFragment : Fragment() {
     private fun showDataFavorite(tvShows: List<TvShow>) {
         tvShowAdapter.setData(tvShows)
 
-        if (tvShowAdapter.itemCount == 0 || tvShows.isEmpty()) {
+        if (tvShowAdapter.itemCount == 0 || tvShows.isNullOrEmpty()) {
             binding?.apply {
                 progressBar.gone()
                 rvTvshowFavorite.gone()

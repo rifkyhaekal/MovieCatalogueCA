@@ -15,12 +15,14 @@
     android:orientation="vertical"
     app:cardCornerRadius="12dp"
     app:cardElevation="15dp"
-    app:cardMaxElevation="20dp">
+    app:cardMaxElevation="20dp"
+    tools:ignore="UnusedIds">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/item_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:ignore="UnusedIds">
 
         <ImageView
             android:id="@+id/img_poster"
@@ -32,7 +34,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="@tools:sample/avatars" />
+            tools:src="@tools:sample/avatars"
+            tools:ignore="UnusedIds" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

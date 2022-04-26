@@ -71,6 +71,10 @@ ext {
 
     // Leak Canary
     leakCanaryVersion = '2.4'
+
+    // SQLCipher
+    sqlCipherVersion = '4.4.0'
+    sqliteKTXVersion = '2.2.0'
 }
 
 task clean(type: Delete) {

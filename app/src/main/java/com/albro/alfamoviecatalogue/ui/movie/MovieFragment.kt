@@ -25,7 +25,7 @@ import org.koin.androidx.viewmodel.ext.android.viewModel
 class MovieFragment : Fragment() {
 
     private var _fragmentMovieBinding: FragmentMovieBinding? = null
-    private val binding get() = _fragmentMovieBinding
+    internal val binding get() = _fragmentMovieBinding
 
     private val viewModel: MovieViewModel by viewModel()
     private val moviesAdapter: MovieAdapter by lazy { MovieAdapter() }
@@ -97,7 +97,7 @@ class MovieFragment : Fragment() {
         viewModel.getMovies(sort).observe(viewLifecycleOwner, movieObserver)
     }
 
-    private fun setSearchMovies(title: String) {
+    internal fun setSearchMovies(title: String) {
         var titleQuery = "%$title%"
 
         viewModel.searchMovies(titleQuery).observe(this) {

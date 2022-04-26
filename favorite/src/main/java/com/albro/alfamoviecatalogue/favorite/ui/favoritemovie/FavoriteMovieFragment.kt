@@ -58,7 +58,7 @@ class FavoriteMovieFragment : Fragment() {
     private fun showDataFavorite(movies: List<Movie>) {
         movieAdapter.setData(movies)
 
-        if (movieAdapter.itemCount == 0 || movies.isEmpty()) {
+        if (movieAdapter.itemCount == 0 || movies.isNullOrEmpty()) {
             binding?.apply {
                 progressBar.gone()
                 rvMovieFavorite.gone()

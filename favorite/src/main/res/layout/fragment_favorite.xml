@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.FavoriteFragment">
+    tools:context=".ui.FavoriteFragment"
+    tools:keep="@layout/fragment_favorite">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -29,11 +30,13 @@
         app:tabMaxWidth="0dp"
         app:tabMode="fixed"
         app:tabSelectedTextColor="@color/colorAccent"
-        app:tabTextColor="@color/textMinor" />
+        app:tabTextColor="@color/textMinor"
+        tools:ignore="UnusedIds" />
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        tools:ignore="UnusedIds" />
 
 </LinearLayout>

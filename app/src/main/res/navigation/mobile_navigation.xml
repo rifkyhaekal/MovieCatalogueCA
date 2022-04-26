@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_movie">
+    app:startDestination="@+id/navigation_movie"
+    tools:ignore="UnusedIds">
 
     <fragment
         android:id="@+id/navigation_movie"
@@ -26,6 +27,7 @@
         android:id="@+id/dynamicFeatureFavorite"
         app:graphPackage="com.albro.alfamoviecatalogue.favorite"
         app:graphResName="navigation_favorite"
-        app:moduleName="favorite" />
+        app:moduleName="favorite"
+        tools:ignore="UnusedIds" />
 
 </navigation>

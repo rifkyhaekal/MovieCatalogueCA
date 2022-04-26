@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.favoritemovie.FavoriteMovieFragment">
+    tools:context=".ui.favoritemovie.FavoriteMovieFragment"
+    tools:keep="@layout/fragment_favorite_movie">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_movie_favorite"
@@ -18,7 +19,8 @@
         tools:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         tools:listitem="@layout/items_list"
         tools:orientation="vertical"
-        tools:spanCount="3" />
+        tools:spanCount="3"
+        tools:ignore="UnusedIds" />
 
     <ProgressBar
         android:id="@+id/progress_bar"
@@ -30,7 +32,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="visible" />
+        tools:visibility="visible"
+        tools:ignore="UnusedIds" />
 
     <TextView
         android:id="@+id/empty_info"
@@ -46,6 +49,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="@string/empty_movie"
-        tools:visibility="visible"/>
+        tools:visibility="visible"
+        tools:ignore="UnusedIds" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
