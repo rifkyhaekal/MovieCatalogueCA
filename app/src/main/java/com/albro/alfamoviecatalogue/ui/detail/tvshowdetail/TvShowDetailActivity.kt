@@ -8,13 +8,9 @@ import androidx.lifecycle.Observer
 import com.albro.alfamoviecatalogue.R
 import com.albro.alfamoviecatalogue.core.data.source.Resource
 import com.albro.alfamoviecatalogue.core.domain.model.TvShow
-import com.albro.alfamoviecatalogue.core.utils.gone
-import com.albro.alfamoviecatalogue.core.utils.loadImage
-import com.albro.alfamoviecatalogue.core.utils.showToastShort
-import com.albro.alfamoviecatalogue.core.utils.visible
+import com.albro.alfamoviecatalogue.core.utils.*
 import com.albro.alfamoviecatalogue.databinding.ActivityTvShowDetailBinding
 import com.albro.alfamoviecatalogue.databinding.ContentDetailTvshowBinding
-import com.albro.alfamoviecatalogue.core.utils.Common
 import com.jakewharton.rxbinding4.view.clicks
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

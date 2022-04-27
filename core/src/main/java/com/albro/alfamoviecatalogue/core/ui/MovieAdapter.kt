@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.albro.alfamoviecatalogue.core.databinding.ItemsListBinding
 import com.albro.alfamoviecatalogue.core.domain.model.Movie
-import com.albro.alfamoviecatalogue.core.utils.loadImage
 import com.albro.alfamoviecatalogue.core.utils.Common
+import com.albro.alfamoviecatalogue.core.utils.loadImage
 
 class MovieAdapter : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
 

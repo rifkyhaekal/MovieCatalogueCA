@@ -10,12 +10,12 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.Toast
 import com.albro.alfamoviecatalogue.core.R
-import com.bumptech.glide.Glide
-import com.bumptech.glide.load.resource.bitmap.CenterCrop
-import com.bumptech.glide.request.RequestOptions
 import com.albro.alfamoviecatalogue.core.data.source.remote.response.MovieGenresItem
 import com.albro.alfamoviecatalogue.core.data.source.remote.response.NetworksItem
 import com.albro.alfamoviecatalogue.core.data.source.remote.response.TvGenresItem
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.resource.bitmap.CenterCrop
+import com.bumptech.glide.request.RequestOptions
 import java.io.Serializable
 import kotlin.math.floor
 

@@ -4,10 +4,10 @@ import androidx.room.Room
 import com.albro.alfamoviecatalogue.core.BuildConfig
 import com.albro.alfamoviecatalogue.core.data.source.MovieRepository
 import com.albro.alfamoviecatalogue.core.data.source.local.LocalDataSource
-import com.albro.alfamoviecatalogue.core.data.source.remote.network.ApiService
-import com.albro.alfamoviecatalogue.core.domain.repository.IMovieRepository
 import com.albro.alfamoviecatalogue.core.data.source.local.room.MovieDatabase
 import com.albro.alfamoviecatalogue.core.data.source.remote.RemoteDataSource
+import com.albro.alfamoviecatalogue.core.data.source.remote.network.ApiService
+import com.albro.alfamoviecatalogue.core.domain.repository.IMovieRepository
 import com.albro.alfamoviecatalogue.core.utils.AppExecutors
 import com.albro.alfamoviecatalogue.core.utils.Common
 import net.sqlcipher.database.SQLiteDatabase

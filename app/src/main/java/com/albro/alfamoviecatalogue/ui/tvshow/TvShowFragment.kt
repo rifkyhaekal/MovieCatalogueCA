@@ -12,13 +12,9 @@ import com.albro.alfamoviecatalogue.R
 import com.albro.alfamoviecatalogue.core.data.source.Resource
 import com.albro.alfamoviecatalogue.core.domain.model.TvShow
 import com.albro.alfamoviecatalogue.core.ui.TvShowAdapter
-import com.albro.alfamoviecatalogue.core.utils.gone
-import com.albro.alfamoviecatalogue.core.utils.showToastShort
-import com.albro.alfamoviecatalogue.core.utils.startActivity
-import com.albro.alfamoviecatalogue.core.utils.visible
+import com.albro.alfamoviecatalogue.core.utils.*
 import com.albro.alfamoviecatalogue.databinding.FragmentTvshowBinding
 import com.albro.alfamoviecatalogue.ui.detail.tvshowdetail.TvShowDetailActivity
-import com.albro.alfamoviecatalogue.core.utils.SortUtils
 import com.jakewharton.rxbinding4.view.clicks
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

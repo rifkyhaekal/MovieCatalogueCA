@@ -1,15 +1,15 @@
 package com.albro.alfamoviecatalogue.core.utils
 
-import com.albro.alfamoviecatalogue.core.domain.model.Movie
-import com.albro.alfamoviecatalogue.core.domain.model.MovieDetail
-import com.albro.alfamoviecatalogue.core.domain.model.TvShow
-import com.albro.alfamoviecatalogue.core.domain.model.TvShowDetail
 import com.albro.alfamoviecatalogue.core.data.source.local.entity.MovieDetailEntity
 import com.albro.alfamoviecatalogue.core.data.source.local.entity.MovieEntity
 import com.albro.alfamoviecatalogue.core.data.source.local.entity.TvShowDetailEntity
 import com.albro.alfamoviecatalogue.core.data.source.local.entity.TvShowEntity
 import com.albro.alfamoviecatalogue.core.data.source.remote.response.MovieResponse
 import com.albro.alfamoviecatalogue.core.data.source.remote.response.TvShowResponse
+import com.albro.alfamoviecatalogue.core.domain.model.Movie
+import com.albro.alfamoviecatalogue.core.domain.model.MovieDetail
+import com.albro.alfamoviecatalogue.core.domain.model.TvShow
+import com.albro.alfamoviecatalogue.core.domain.model.TvShowDetail
 
 object DataMapper {
     fun mapMovieResponseToEntities(input: MovieResponse): List<MovieEntity> {
