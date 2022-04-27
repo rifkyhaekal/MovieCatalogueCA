@@ -42,13 +42,6 @@ dependencies {
     testImplementation "org.mockito:mockito-inline:$mockitoVersion"
     testImplementation "androidx.arch.core:core-testing:$androidCoreTestVersion"
 
-    // DI
-    implementation "io.insert-koin:koin-android:$koinVersion"
-    implementation "io.insert-koin:koin-android-compat:$koinVersion"
-    implementation "io.insert-koin:koin-androidx-workmanager:$koinVersion"
-    implementation "io.insert-koin:koin-androidx-navigation:$koinVersion"
-    implementation "io.insert-koin:koin-androidx-compose:$koinVersion"
-
     // Leak Canary
     debugImplementation "com.squareup.leakcanary:leakcanary-android:$leakCanaryVersion"
 }
